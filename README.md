@@ -1,7 +1,7 @@
  
 # Note-Taker
 
-![GitHub](https://img.shields.io/github/repo-size/Marcus Travis/Note-Taker?style=plastic) ![GitHub](https://img.shields.io/github/last-commit/Marcus Travis/Note-Taker?style=plastic) ![GitHub](https://img.shields.io/github/languages/top/Marcus Travis/Note-Taker?style=plastic) ![GitHub](https://img.shields.io/github/license/Marcus Travis/Note-Taker?style=plastic) ![GitHub](https://img.shields.io/github/followers/Marcus Travis?style=social)
+![GitHub](https://img.shields.io/github/repo-size/MarcusTravis/Weather-Dashboard?style=plastic) ![GitHub](https://img.shields.io/github/license/MarcusTravis/Weather-Dashboard?style=plastic) ![GitHub](https://img.shields.io/github/languages/top/MarcusTravis/Weather-Dashboard?style=plastic) ![GitHub](https://img.shields.io/github/followers/MarcusTravis?style=social)
 
 ## Description
 
