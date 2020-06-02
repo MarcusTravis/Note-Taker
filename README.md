@@ -1,2 +1,70 @@
+ 
 # Note-Taker
-Note Taker, an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
+
+![GitHub](https://img.shields.io/github/repo-size/Marcus Travis/Note-Taker?style=plastic) ![GitHub](https://img.shields.io/github/last-commit/Marcus Travis/Note-Taker?style=plastic) ![GitHub](https://img.shields.io/github/languages/top/Marcus Travis/Note-Taker?style=plastic) ![GitHub](https://img.shields.io/github/license/Marcus Travis/Note-Taker?style=plastic) ![GitHub](https://img.shields.io/github/followers/Marcus Travis?style=social)
+
+## Description
+
+Note Taker, an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.<br>
+Try it here!: https://marcustravis.github.io/Note-Taker/
+
+## Table of Contents
+
+* [Prerequisites](#prerequisites)
+* [Installing](#Installing)
+* [Running the tests](#running-the-tests)
+* [Deployment](#deployment)
+* [Built With](#built-with)
+* [Contributing](#contributing)
+* [Version](#version)
+* [Authors](#authors)
+* [License](#license)
+* [Acknowledgements](#acknowledgements)
+
+### Prerequisites
+
+A web browser and an internet connection is required to run this.
+
+### Installing
+
+N/A
+
+
+## Running the tests
+
+N/A
+
+## Deployment
+
+Just click this link here to take notes with this application!:<br>
+https://marcustravis.github.io/Note-Taker/
+
+## Built With
+
+* HTML<br>
+* CSS<br> 
+* JavaScript<br> 
+* jQuery<br> 
+* Node.js
+
+## Contributing
+
+UofA supplied starter code(main HTML layout) for this project, I coded the the back end stuff.
+
+## Version
+
+We use [SemVer](http://semver.org/) for versioning.
+
+## Authors
+
+**Marcus Travis**
+
+## License
+
+N/A
+
+## Acknowledgments
+
+UofA coding bootcamp and classmates April-July 2020
+* Hat tip to anyone whose code was used!
+* Inspirations: N/A
