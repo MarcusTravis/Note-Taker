@@ -4,7 +4,7 @@ let express = require("express");
 let path = require("path");
 let fs = require("fs");
 const { uuid } = require("uuidv4");
-console.log(uuid());
+// console.log(uuid());
 
 // Sets up the Express App
 // =============================================================
@@ -43,21 +43,18 @@ app.post("/api/notes", function (req, res) {
   });
 });
 
-// In order to delete a note, you'll need to read all 
-// notes from the db.json file, remove the note with 
-// the given id property, and then rewrite the notes 
+// In order to delete a note, you'll need to read all
+// notes from the db.json file, remove the note with
+// the given id property, and then rewrite the notes
 // to the db.json file.
-app.delete('/api/notes/:id', function (req, res) {
-  console.log(req);
-  if (err) throw err;
+app.delete("/api/notes/:id", function (req, res) {
+  fs.readFile("db/db.json", (err, data) => {
     let db = JSON.parse(data);
-    db.push(note);
-  let id = req.params.id;
-  
-
-  fs.writeFile(__dirname + "/db/db.json", JSON.stringify(db), (err, data) => {
-    if (err) throw err;
-    res.send(data);
+    let savedNote = db.filter((item) => item.id !== req.params.id);
+    fs.writeFile("db/db.json", JSON.stringify(savedNote, null, 2), (err) => {
+      if (err) throw err;
+      res.send(req.body);
+    });
   });
 });
 
