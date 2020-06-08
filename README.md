@@ -61,7 +61,7 @@ We use [SemVer](http://semver.org/) for versioning.
 
 ## License
 
-N/A
+MIT
 
 ## Acknowledgments
 
