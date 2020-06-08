@@ -6,7 +6,7 @@
 ## Description
 
 Note Taker, an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.<br>
-Try it here!: https://marcustravis.github.io/Note-Taker/
+Try it here!: https://sheltered-reef-60042.herokuapp.com/
 
 ## Table of Contents
 
@@ -37,7 +37,7 @@ N/A
 ## Deployment
 
 Just click this link here to take notes with this application!:<br>
-https://marcustravis.github.io/Note-Taker/
+https://sheltered-reef-60042.herokuapp.com/
 
 ## Built With
 
